@@ -70,7 +70,7 @@ namespace AutoHook {
                     return;
                 }
 
-                var region = regions.Find(r => r.Region == "Global");
+                var region = regions.Find(r => r.Region == "CN");
                 if (region == null || region.Lists == null) {
                     PluginLog.Warning("No global region found in opcode list");
                     return;
